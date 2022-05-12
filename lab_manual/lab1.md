@@ -30,28 +30,27 @@ We downloaded the software and environments required for the project. Those were
 * Django
 * VS Code
 * Github account
-	We had some of them already and set up the remaining. The software could be different in the case of different operating systems with the same functionality. We checked if everything was working as it should.
+
+We had some of them already and set up the remaining. The software could be different in the case of different operating systems with the same functionality. We checked if everything was working as it should.
 
 **2. Migrating and creating users**
 
 After the environment setup, we started the project and migrated files.
-Syntax: 
-django-admin startproject ecommerce_barun
-cd ecommerce_barun
 
-python manage.py migrate
+Syntax: 
+*django-admin startproject ecommerce_barun
+cd ecommerce_barun
+python manage.py migrate*
 
 We ran the server if it was working. Then, we got the link for the server as 127.0.0.1:8000. Again, we verified the admin side using 127.0.0.1:8000/admin. We were able to create a superuser and other users.
-Syntax:
-python manage.py runserver 
+Syntax: *python manage.py runserver* 
 
 **3. Database verification and CRUD operations**
 
 Then, we added a module product_module and migrated files to the database. Now, we were able to do CRUD operations on the server.
-Syntax: 
-python manage.py startapp product_module
+Syntax: *python manage.py startapp product_module
 …….
-python manage.py runserver
+python manage.py runserver*
 
 **4. Source Control**
 
